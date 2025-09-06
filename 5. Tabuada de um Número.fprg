@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="5. Tabuada de um N&#250;mero"/>
+        <attribute name="authors" value="Ferna"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-06 05:22:57 "/>
+        <attribute name="created" value="RmVybmE7REVTS1RPUC02TDIyTDFOOzIwMjUtMDktMDY7IjA1OjA3OjE3ICI7MjcwNw=="/>
+        <attribute name="edited" value="RmVybmE7REVTS1RPUC02TDIyTDFOOzIwMjUtMDktMDY7IjA1OjIyOjU3ICI7MTsyODE2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, op, i" type="Integer" array="False" size=""/>
+            <do expression="op == 1">
+                <output expression="&quot;Digite o n&#250;mero que sera digitado a sua tabuada.&quot;" newline="True"/>
+                <input variable="n"/>
+                <for variable="i" start="0" end="10" direction="inc" step="1">
+                    <output expression="i&amp;&quot;X&quot;&amp; n&amp;&quot;=&quot;&amp; i*n" newline="True"/>
+                </for>
+                <output expression="&quot;Deseja gerar a tabuada de outro numero: 1-Para Repetir ou 2-Para Sair.&quot;" newline="True"/>
+                <input variable="op"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="C&#225;lculo de M&#233;dia"/>
+        <attribute name="authors" value="Ferna"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-03 05:00:04 "/>
+        <attribute name="created" value="RmVybmE7REVTS1RPUC02TDIyTDFOOzIwMjUtMDktMDM7IjA0OjE0OjM5ICI7MjcwNQ=="/>
+        <attribute name="edited" value="RmVybmE7REVTS1RPUC02TDIyTDFOOzIwMjUtMDktMDM7IjA1OjAwOjA0ICI7MzsyODAz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N1" type="Integer" array="False" size=""/>
+            <declare name="N2" type="Integer" array="False" size=""/>
+            <declare name="Soma" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o primeiro n&#250;mero&quot;" newline="True"/>
+            <input variable="N1"/>
+            <output expression="&quot;Digite o segundo n&#250;mero&quot;" newline="True"/>
+            <input variable="N2"/>
+            <assign variable="Soma" expression="(N1 + N2)"/>
+        </body>
+    </function>
+</flowgorithm>

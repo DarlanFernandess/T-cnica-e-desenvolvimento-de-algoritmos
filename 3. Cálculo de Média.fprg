@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="3. C&#225;lculo de M&#233;dia"/>
+        <attribute name="authors" value="Ferna"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-06 04:07:18 "/>
+        <attribute name="created" value="RmVybmE7REVTS1RPUC02TDIyTDFOOzIwMjUtMDktMDM7IjA1OjAxOjU1ICI7MjcwMA=="/>
+        <attribute name="edited" value="RmVybmE7REVTS1RPUC02TDIyTDFOOzIwMjUtMDktMDY7IjA0OjA3OjE4ICI7MzsyODE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N1" type="Real" array="False" size=""/>
+            <declare name="N2" type="Real" array="False" size=""/>
+            <declare name="N3" type="Real" array="False" size=""/>
+            <declare name="M&#233;dia" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a primeira nota&quot;" newline="True"/>
+            <input variable="N1"/>
+            <output expression="&quot;Digite a segunda nota&quot;" newline="True"/>
+            <input variable="N2"/>
+            <output expression="&quot;Digite a terceira nota&quot;" newline="True"/>
+            <input variable="N3"/>
+            <assign variable="M&#233;dia" expression="(N1 + N2 + N3)/2"/>
+            <if expression="M&#233;dia &gt;= 7">
+                <then>
+                    <output expression="&quot;Aprovado&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Reprovado&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

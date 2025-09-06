@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="2. Verifica&#231;&#227;o de Par ou &#205;mpar"/>
+        <attribute name="authors" value="Ferna"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-06 05:05:07 "/>
+        <attribute name="created" value="RmVybmE7REVTS1RPUC02TDIyTDFOOzIwMjUtMDktMDY7IjAzOjQ2OjU3ICI7MjcxMg=="/>
+        <attribute name="edited" value="RmVybmE7REVTS1RPUC02TDIyTDFOOzIwMjUtMDktMDY7IjA1OjA1OjA3ICI7MjsyODEz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Digite o numero&quot;" newline="True"/>
+            <declare name="N1" type="Integer" array="False" size=""/>
+            <input variable="N1"/>
+            <if expression="N1 % 2 = 0">
+                <then>
+                    <output expression="&quot;Par&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Impar&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
